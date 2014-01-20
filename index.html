@@ -1,0 +1,20 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="utf-8"> 
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script type="text/javascript" src="jeu.js"></script>
+        <title>Jeu des allumettes</title>
+    </head>
+    <body>
+        <h1>Jeu des allumettes</h1>
+        <div id="jeu">
+            <img id="flame" src="flame.gif">
+        </div>
+        <p id="init"><button type="button" onclick="init()">Initialiser</button>avec <input id="nbAllTotal" type="text" size="3">allumette(s)</p>
+        <p>Joueur: <span id="joueur"></span></p>
+        <p>Ordinateur: <span id="ordi"></span></p>
+        <p><span id="print"></span></p>
+        <button type="button" onclick="location.reload()">Recommencer</button>
+    </body>
+</html>

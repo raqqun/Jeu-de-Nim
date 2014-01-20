@@ -1,0 +1,17 @@
+#joueur {
+    color: green;
+}
+
+#ordi {
+    color: green;
+}
+
+#print {
+    color: red;
+    font-size: 20pt;
+}
+
+.img {
+    float:left;
+    width:32px;
+}
